@@ -1,7 +1,8 @@
 # Bulk-Youtube-Link-Collector
 Ever uploaded 30+ videos to Youtube at once? We do it daily. And we frequently need to copy each link and title, and paste it into an email. Using this tool, you can copy all save all Youtube links in a matter of seconds!
 
-# Current Version: 1.0.1 Beta
+# Current Version: 
+1.0.1 Beta
 # Author: 
 Alex Navarro
 # Updates: 
@@ -18,13 +19,13 @@ Built: 2018-09-01 | Last Updated: 2018-09-07
 4. Launch the software (.jar)
 5. Paste the copied webpage into the software's main text box
 6. Set any other options you'd like:
-* By selecting "Show progress of uploads," it adds: "Still uploading:" or "Finished:" status to the links
-* By selecting "Include video names," it includes the titles of each video on a newline before the link.
+     * By selecting "Show progress of uploads," it adds: "Still uploading:" or "Finished:" status to the links
+     * By selecting "Include video names," it includes the titles of each video on a newline before the link.
 7. Click convert and copy the new cleaned-up text!
 
 # PreRequisites:
 1. You will need to download the latest version of Java 8
-     a) Go to Java.com and download Java 8.
+* Go to Java.com and download Java 8.
 2. Have the JAR file downloaded anywhere onto your computer
 
 # Supported Operating Systems:
