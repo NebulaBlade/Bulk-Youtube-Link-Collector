@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<BorderPane fx:controller="main.Controller" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <TextArea fx:id="mainText" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </BorderPane.margin>
+      </TextArea>
+   </center>
+   <bottom>
+      <Text fx:id="resultText" strokeType="OUTSIDE" strokeWidth="0.0" text="Converted Succesfully" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="Arial Bold Italic" size="12.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets bottom="10.0" />
+         </BorderPane.margin>
+      </Text>
+   </bottom>
+   <top>
+      <VBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="TOP_CENTER" maxWidth="1.7976931348623157E308">
+               <children>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#convertTextAction" text="Convert it!" HBox.hgrow="ALWAYS">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </Button>
+                  <Button maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#resetWindowAction" text="Reset" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="10.0" right="10.0" top="10.0" />
+               </padding>
+            </HBox>
+            <HBox alignment="TOP_CENTER" BorderPane.alignment="CENTER">
+            	<CheckBox fx:id="checkBox1" mnemonicParsing="false" text="Show progress of uploads">
+            		<padding>
+                  		<Insets bottom="10.0" left="10.0" right="10.0" />
+               		</padding>
+         		</CheckBox>
+            	<CheckBox fx:id="checkBox2" mnemonicParsing="false" text="Include video names">
+            		<padding>
+                  		<Insets bottom="10.0" left="10.0" right="10.0" />
+               		</padding>
+         		</CheckBox>
+            </HBox>
+         </children>
+      </VBox>
+   </top>
+</BorderPane>
