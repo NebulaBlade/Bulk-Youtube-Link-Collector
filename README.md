@@ -2,9 +2,10 @@
 Ever uploaded 30+ videos to Youtube at once? We do it daily. And we frequently need to copy each link and title, and paste it into an email. Using this tool, you can copy all save all Youtube links in a matter of seconds!
 
 # Current Version: 1.0.1 Beta
-# Author: Alex Navarro
-# Since: 2018-09-01
-# Last Updated: 2018-09-07
+# Author: 
+Alex Navarro
+# Updates: 
+Built: 2018-09-01 | Last Updated: 2018-09-07
 
 # Acknowledgements:
 - Brandan Fisher (Testing and inspiration)
@@ -18,9 +19,9 @@ Ever uploaded 30+ videos to Youtube at once? We do it daily. And we frequently n
 5. Paste the copied webpage into the software's main text box
 6. Set any other options you'd like:
     a) Show progress of uploads
-         * By selecting this, it adds: "Still uploading:" or "Finished:" status to the links
+        * By selecting this, it adds: "Still uploading:" or "Finished:" status to the links
     b) Include video names:
-         * By selecting this, it includes the titles of each video on a newline before the link.
+        * By selecting this, it includes the titles of each video on a newline before the link.
 7. Click convert and copy the new cleaned-up text!
 
 # PreRequisites:
@@ -37,7 +38,7 @@ Ever uploaded 30+ videos to Youtube at once? We do it daily. And we frequently n
 1. Chrome
 2. Firefox
 3. NOT Safari!
-     a) Version 1.1 should overcome this obstacle soon. For now, just upload your videos to Youtube using Chrome or Firefox
+    a) Version 1.1 should overcome this obstacle soon. For now, just upload your videos to Youtube using Chrome or Firefox
      
 # Built With: 
 Java E(fx)clipse in Eclipse Photon
