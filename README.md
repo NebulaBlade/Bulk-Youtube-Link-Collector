@@ -25,7 +25,7 @@ Built: 2018-09-01 | Last Updated: 2018-09-07
 
 # PreRequisites:
 1. You will need to download the latest version of Java 8
-* Go to Java.com and download Java 8.
+    * Go to Java.com and download Java 8.
 2. Have the JAR file downloaded anywhere onto your computer
 
 # Supported Operating Systems:
@@ -37,7 +37,7 @@ Built: 2018-09-01 | Last Updated: 2018-09-07
 1. Chrome
 2. Firefox
 3. NOT Safari!
-* Version 1.1 should overcome this obstacle soon. For now, just upload your videos to Youtube using Chrome or Firefox
+    * Version 1.1 should overcome this obstacle soon. For now, just upload your videos to Youtube using Chrome or Firefox
      
 # Built With: 
 Java E(fx)clipse in Eclipse Photon
